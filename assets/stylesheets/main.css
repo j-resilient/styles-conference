@@ -200,6 +200,12 @@ p a {
 .teaser a:hover h3 {
 	color: #a9b2b9;
 }
+.teaser img {
+	display: block;
+	max-width: 100%;
+	border-radius: 5px;
+	margin-bottom: 22px;
+}
 /*
 		###########################################################################
 		Clearfix
@@ -295,16 +301,23 @@ p a {
 }
 /*
 		###########################################################################
-		speakers
+		Speakers
 		###########################################################################
 */
 .speaker-info {
 	border: 1px solid #dfe2e5;
 	border-radius: 5px;
 	margin-top: 88px;
-	padding: 22px 0;
+	padding-bottom: 22px;
 	text-align: center;
 }
 .speaker {
 	margin-bottom: 44px;
+}
+.speaker-info img {
+	height: 130px;
+	vertical-align: top;
+	border-radius: 50%;
+	margin-top: -66px;
+	margin-bottom: 22px;
 }
