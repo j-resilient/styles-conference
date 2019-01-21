@@ -52,8 +52,6 @@ table {
 */
 *, *:before, *:after {
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 }
 .container {
 	padding-left: 30px;
@@ -246,8 +244,6 @@ p a {
 }
 .row-alt {
 	background: #cbe2c1;
-	background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-	background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
 	background: linear-gradient(to right, #a1d3b0, #f6f1d3);
 	padding: 44px 0 22px 0;
 }
@@ -343,6 +339,9 @@ p a {
 }
 .venue-map {
 	height: 264px;
+}
+iframe {
+	border: none;
 }
 /*
 		##########################################################################
